@@ -1,13 +1,14 @@
 # Flower Classifier with TensorFlow🌸
 
 > A deep learning project to classify flowers into 102 categories using transfer learning with TensorFlow Hub and MobileNet.
-> 
 
-![1-2.gif](attachment:ff565cd9-060a-4dd9-a02d-f69186156bdb:1-2.gif)
+
+![1-2](https://github.com/user-attachments/assets/4a1d7415-2630-4b50-8695-f20599f30138)
+
 
 ---
 
-## 📚 Project Overview
+## Project Overview :
 
 This project classifies flower images using a pre-trained MobileNet model. It's built as part of the [Udacity AI Nanodegree](https://www.notion.so/%5B%3Chttps://www.udacity.com/course/intro-to-machine-learning-with-tensorflow--ud187%3E%5D(%3Chttps://emc.udacity.com/c/palestine-launchpad-google/catalog/An0jgdK3/i/nd/nd089-ent-google-si%3E)) and demonstrates key concepts of **image preprocessing**, **transfer learning**, and **model evaluation**.
 
@@ -45,15 +46,21 @@ Results for the command above:
 ---
 
 project sturcute:
-┣ [📜predict.py](http://xn--predict-gs05f.py/) # Command-line prediction tool
-┣ [📜helpingfun.py](http://xn--helpingfun-rh46i.py/) # Helper functions (image processing,predict function, loading model)
-┣ 📜Project_Image_Classifier_Project.ipynb # Jupyter Notebook for training the model
-┣ 📜my_model.h5 # Saved trained model
-┣ 📜label_map.json # Flower category to name mapping
-┣ 📁test_images/ # Sample images for testing
-┣ 📁assets/ # Visuals and GIFs (optional)
-┗ [📜README.md](http://xn--readme-o754e.md/)
+┣ [📜predict.py] # Command-line prediction tool
 
+┣ [📜helpingfun.py] # Helper functions (image processing,predict function, loading model)
+
+┣ 📜Project_Image_Classifier_Project.ipynb # Jupyter Notebook for training the model
+
+┣ 📜my_model.h5 # Saved trained model
+
+┣ 📜label_map.json # Flower category to name mapping
+
+┣ 📁test_images/ # Sample images for testing
+
+┣ 📁assets/ 
+
+┗ [📜README.md]
 ---
 
 ## Model Training (Project_Image_Classifier_Project.ipynb)
