@@ -1,11 +1,38 @@
-# Intro to Machine Learning - TensorFlow Project
+# 🌸 Flower Classifier with TensorFlow
 
-Project code for Udacity's Intro to Machine Learning with TensorFlow Nanodegree program. In this project, you will first develop code for an image classifier built with TensorFlow, then you will convert it into a command line application.
+> A deep learning project to classify flowers into 102 categories using transfer learning with TensorFlow Hub and MobileNet.
 
-In order to complete this project, you will need to use the GPU enabled workspaces within the classroom.  The files are all available here for your convenience, but running on your local CPU will likely not work well.
+![Flower Classification](assets/flower-banner.gif)
 
-You should also only enable the GPU when you need it. If you are not using the GPU, please disable it so you do not run out of time!
+---
 
-### Data
+## 📚 Project Overview
 
-The data for this project is quite large - in fact, it is so large you cannot upload it onto Github.  If you would like the data for this project, you will want download it from the workspace in the classroom.  Though actually completing the project is likely not possible on your local unless you have a GPU.  You will be training using 102 different types of flowers, where there ~20 images per flower to train on.  Then you will use your trained classifier to see if you can predict the type for new images of the flowers.
+This project classifies flower images using a pre-trained MobileNet model. It's built as part of the [Udacity AI Nanodegree](https://www.udacity.com/course/intro-to-machine-learning-with-tensorflow--ud187) and demonstrates key concepts of **image preprocessing**, **transfer learning**, and **model evaluation**.
+
+---
+
+## 🚀 Features
+
+- 🔍 Uses **MobileNet v2** from TensorFlow Hub
+- 🎓 Trained on the **Oxford Flowers 102** dataset
+- 🛠️ Command-line prediction using `predict.py`
+- 📊 Accuracy up to **XX%** (add your number)
+- 📁 Supports JSON-based category mapping
+
+---
+
+## 🖼️ Demo
+
+Here’s an example of the classifier in action:
+After entering the command line :
+$ python predict.py ./test_images/orchid.jpg my_model.h5 --category_names label_map.json --top_k 5
+which passes the json file path, top k classes the flower would be , the trained model:
+![image](https://github.com/user-attachments/assets/8ecc39b7-e62e-4ba3-a747-2d261941aad1)
+
+![132png](https://github.com/user-attachments/assets/1aa1892f-2819-4f91-8a66-203bdc0431b3)
+
+ 
+
+
+
