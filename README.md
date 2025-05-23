@@ -39,9 +39,12 @@ $ python ./test_images/orchid.jpg my_model.h5 --category_names label_map.json --
 
 Results for the command above:
 
-[](https://github.com/user-attachments/assets/8ecc39b7-e62e-4ba3-a747-2d261941aad1)
+Results for the command above:
 
-[](https://github.com/user-attachments/assets/1aa1892f-2819-4f91-8a66-203bdc0431b3)
+![Screenshot 2025-05-23 214033](https://github.com/user-attachments/assets/65f1251e-8df0-4f7a-aa78-a79ef8b97e93)
+
+![image](https://github.com/user-attachments/assets/096f3959-d90c-47b0-a1a9-37b452e01131)
+
 
 ---
 
@@ -131,3 +134,10 @@ $ python predict.py ./test_images/orchid.jpg my_model.h5 --top_k 3
 $ python predict.py ./test_images/orchid.jpg my_model.h5 --category_names label_map.json
 
 ```
+
+
+## Author
+
+**Salahaldin-tech**  
+[GitHub Profile](https://github.com/Salahaldin-tech)
+
