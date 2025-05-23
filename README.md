@@ -19,7 +19,7 @@ This project classifies flower images using a pre-trained MobileNet model. It's 
 - 🔍 Uses **MobileNet v2** from TensorFlow Hub
 - 🎓 Trained on the **Oxford Flowers 102** dataset
 - 🛠️ Command-line prediction using `predict.py`
-- 📊 Accuracy up to 90**%**
+- 📊 Accuracy up to 90%
 - 📁 Supports JSON-based category mapping
 
 ---
