@@ -2,8 +2,7 @@
 
 > A deep learning project to classify flowers into 102 categories using transfer learning with TensorFlow Hub and MobileNet.
 
-
-![1-2](https://github.com/user-attachments/assets/4a1d7415-2630-4b50-8695-f20599f30138)
+![Your paragraph text](https://github.com/user-attachments/assets/cf20a177-73e6-4113-a8b4-abeb5fba5a92)
 
 
 ---
