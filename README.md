@@ -39,7 +39,6 @@ $ python ./test_images/orchid.jpg my_model.h5 --category_names label_map.json --
 
 Results for the command above:
 
-Results for the command above:
 
 ![Screenshot 2025-05-23 214033](https://github.com/user-attachments/assets/65f1251e-8df0-4f7a-aa78-a79ef8b97e93)
 
@@ -49,6 +48,7 @@ Results for the command above:
 ---
 
 project sturcute:
+
 ┣ [📜predict.py] # Command-line prediction tool
 
 ┣ [📜helpingfun.py] # Helper functions (image processing,predict function, loading model)
@@ -63,7 +63,7 @@ project sturcute:
 
 ┣ 📁assets/ 
 
-┗ [📜README.md]
+┗ 📜readme.md
 ---
 
 ## Model Training (Project_Image_Classifier_Project.ipynb)
